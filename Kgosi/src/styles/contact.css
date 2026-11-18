@@ -1,0 +1,90 @@
+
+#contact {
+    gap: 1rem;
+    display: flex;
+	grid-row: 5 / -1;
+	grid-column: 1 / 6;
+    flex-direction: column;
+    justify-content: space-between;
+	background-color: #ae8fe2;
+}
+
+#contact .site-heading {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--text-secondary);
+}
+
+#contact form {
+	gap: .5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#contact form .form-block {
+    width: 100%;
+}
+
+#contact form label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+#contact form .form-block.message,
+#contact form .form-block.email,
+#contact form .form-block.submit {
+    grid-column: 1 / -1;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-radius: .25rem;
+    background-color: #25252530;
+    /* font-family: 'Integral CF'; */
+}
+
+#contact form button {
+    width: 100%;
+    border: none;
+    padding: .75rem;
+    cursor: pointer;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    border-radius: .25rem;
+    color: var(--text-secondary);
+    background-color: var(--secondary-bg);
+    transition: .3s ease color;
+}
+
+#contact form button::after {
+    left: 50%;
+    font-weight: 600;
+    position: absolute;
+    content: 'Send Message';
+    color: var(--text-secondary);
+    transform: translate(-50%, 150%);
+    background-color: var(--secondary-bg);
+    transition: .3s ease transform;
+}
+
+#contact form button:hover {
+    color: var(--secondary-bg);
+}
+
+#contact form button:hover::after {
+    transform: translate(-50%, 0);
+}

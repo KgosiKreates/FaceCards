@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-regularoblique.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-mediumoblique.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-demibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-demiboldoblique.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-boldoblique.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-extraboldoblique.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/IntegralCF/integralcf-heavyoblique.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
