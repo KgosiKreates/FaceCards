@@ -88,3 +88,44 @@
 #contact form button:hover::after {
     transform: translate(-50%, 0);
 }
+
+@media screen and (max-width: 1600px) {
+
+    /* #contact {
+        display: grid;
+        place-items: center;
+    } */
+
+    /* #contact .site-heading {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    } */
+    
+    #contact form input,
+    #contact form textarea,
+    #contact form button {
+        padding: .7rem;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    /* #contact {
+        display: grid;
+        place-items: center;
+    } */
+
+    #contact .site-heading {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        /* display: none; */
+    }
+    
+    #contact form input,
+    #contact form textarea,
+    #contact form button {
+        padding: .5rem;
+        font-size: .7rem;
+    }
+}
